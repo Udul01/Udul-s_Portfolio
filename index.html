@@ -848,4 +848,15 @@ Developed features and functions for existing systems developed using PHP, enhan
   <script src="js/main.js"></script>
     
   </body>
+
+  <script>
+	$(document).ready(function () {
+	  $('.navbar-nav a').on('click', function () {
+		if ($('.navbar-toggler').is(':visible')) {
+		  $('.navbar-toggler').click();
+		}
+	  });
+	});
+  </script>
+  
 </html>
